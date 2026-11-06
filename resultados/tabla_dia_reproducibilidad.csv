@@ -1,0 +1,2 @@
+comparacion,problemas,correctos_lote500,correctos_lote100,mismo_resultado,mismos_tokens_exactos
+"mismos 100 fijos, nothink muestreo MIT, semilla 0: lote de 500 vs lote de 100",100,52,50,80,27

@@ -1,0 +1,56 @@
+tabla,A,B,parejas,b,c,dif_A_menos_B_pts,dif_boot_lo,dif_boot_hi,p_mcnemar_exacto,p_holm
+MATH-500 (100 fijos),orig · thinking MIT,orig · no-think muestreo MIT,400,5,155,-37.5,-44.75,-30.5,1.1595761117962353e-39,5.9138381701608e-38
+MATH-500 (100 fijos),orig · thinking MIT,orig · no-think 32k,400,4,179,-43.75,-51.24999999999999,-36.25,7.542348699735312e-48,3.997444810859715e-46
+MATH-500 (100 fijos),orig · thinking MIT,p50c · thinking MIT,400,0,174,-43.5,-51.0,-36.0,8.352389719038111e-53,4.593814345470961e-51
+MATH-500 (100 fijos),orig · thinking MIT,p50c · no-think muestreo MIT,400,2,163,-40.25,-47.75,-32.75,5.856989675107634e-46,3.0456346310559696e-44
+MATH-500 (100 fijos),orig · thinking MIT,p50c · no-think 32k,400,2,177,-43.75,-50.74999999999999,-37.0,4.205167211356969e-50,2.2707902941327633e-48
+MATH-500 (100 fijos),orig · thinking MIT,placebo · thinking MIT,200,6,12,-3.0,-7.000000000000001,1.0,0.237884521484375,1.0
+MATH-500 (100 fijos),orig · thinking MIT,orig · rep 1.1 (thinking),400,4,69,-16.25,-21.5,-11.5,2.4422670374772693e-16,1.0013294853656804e-14
+MATH-500 (100 fijos),orig · thinking MIT,orig · rep 1.05 (thinking),100,1,9,-8.0,-14.000000000000002,-2.0,0.021484375,0.365234375
+MATH-500 (100 fijos),orig · thinking MIT,orig · presence 0 (thinking),100,6,1,5.0,0.0,10.0,0.125,1.0
+MATH-500 (100 fijos),orig · thinking MIT,orig · presence 2 (thinking),100,5,7,-2.0,-9.0,5.0,0.7744140625,1.0
+MATH-500 (100 fijos),orig · no-think muestreo MIT,orig · no-think 32k,400,35,60,-6.25,-11.75,-0.75,0.01337870302600394,0.2675740605200788
+MATH-500 (100 fijos),orig · no-think muestreo MIT,p50c · thinking MIT,400,35,59,-6.0,-11.0,-1.0,0.01720959558593046,0.32111024856567383
+MATH-500 (100 fijos),orig · no-think muestreo MIT,p50c · no-think muestreo MIT,400,42,53,-2.75,-7.5,2.0,0.3048851907022759,1.0
+MATH-500 (100 fijos),orig · no-think muestreo MIT,p50c · no-think 32k,400,47,72,-6.25,-12.25,-0.25,0.027379102500930414,0.4380656400148866
+MATH-500 (100 fijos),orig · no-think muestreo MIT,placebo · thinking MIT,200,74,1,36.5,28.999999999999996,44.0,4.0234064994579266e-21,1.7702988597614877e-19
+MATH-500 (100 fijos),orig · no-think muestreo MIT,orig · rep 1.1 (thinking),400,105,20,21.25,15.5,27.0,4.134493368627557e-15,1.5297625463921962e-13
+MATH-500 (100 fijos),orig · no-think muestreo MIT,orig · rep 1.05 (thinking),100,36,1,35.0,25.0,45.0,5.529727786779404e-10,1.548323780298233e-08
+MATH-500 (100 fijos),orig · no-think muestreo MIT,orig · presence 0 (thinking),100,48,0,48.0,38.0,57.99999999999999,7.105427357601002e-15,2.5579538487363607e-13
+MATH-500 (100 fijos),orig · no-think muestreo MIT,orig · presence 2 (thinking),100,41,0,41.0,32.0,51.0,9.094947017729282e-13,3.001332515850663e-11
+MATH-500 (100 fijos),orig · no-think 32k,p50c · thinking MIT,400,51,50,0.25,-5.5,6.0,1.0,1.0
+MATH-500 (100 fijos),orig · no-think 32k,p50c · no-think muestreo MIT,400,54,40,3.5000000000000004,-2.0,9.0,0.17966501480803043,1.0
+MATH-500 (100 fijos),orig · no-think 32k,p50c · no-think 32k,400,59,59,0.0,-6.0,6.0,1.0,1.0
+MATH-500 (100 fijos),orig · no-think 32k,placebo · thinking MIT,200,76,1,37.5,29.5,45.5,1.0323214044661785e-21,4.851910600991039e-20
+MATH-500 (100 fijos),orig · no-think 32k,orig · rep 1.1 (thinking),400,125,15,27.500000000000004,21.0,34.0,8.894877270372545e-23,4.269541089778822e-21
+MATH-500 (100 fijos),orig · no-think 32k,orig · rep 1.05 (thinking),100,35,2,33.0,23.0,43.0,1.0244548320770264e-08,2.561137080192566e-07
+MATH-500 (100 fijos),orig · no-think 32k,orig · presence 0 (thinking),100,46,0,46.0,36.0,56.00000000000001,2.842170943040401e-14,9.947598300641403e-13
+MATH-500 (100 fijos),orig · no-think 32k,orig · presence 2 (thinking),100,40,1,39.0,28.999999999999996,49.0,3.8198777474462986e-11,1.1459633242338896e-09
+MATH-500 (100 fijos),p50c · thinking MIT,p50c · no-think muestreo MIT,400,55,42,3.25,-2.0,8.5,0.22287765458337627,1.0
+MATH-500 (100 fijos),p50c · thinking MIT,p50c · no-think 32k,400,49,50,-0.25,-6.5,6.0,1.0,1.0
+MATH-500 (100 fijos),p50c · thinking MIT,placebo · thinking MIT,200,80,0,40.0,32.0,48.5,1.6543612251060553e-24,8.106370003019671e-23
+MATH-500 (100 fijos),p50c · thinking MIT,orig · rep 1.1 (thinking),400,115,6,27.250000000000004,21.25,33.25,3.047563595444677e-27,1.5237817977223384e-25
+MATH-500 (100 fijos),p50c · thinking MIT,orig · rep 1.05 (thinking),100,38,2,36.0,26.0,46.0,1.4933903003111482e-09,4.0321538108401e-08
+MATH-500 (100 fijos),p50c · thinking MIT,orig · presence 0 (thinking),100,49,0,49.0,39.0,59.0,3.552713678800501e-15,1.3500311979441904e-13
+MATH-500 (100 fijos),p50c · thinking MIT,orig · presence 2 (thinking),100,43,1,42.0,32.0,52.0,5.115907697472721e-12,1.5859313862165436e-10
+MATH-500 (100 fijos),p50c · no-think muestreo MIT,p50c · no-think 32k,400,52,66,-3.5000000000000004,-9.75,2.5,0.23126568219748736,1.0
+MATH-500 (100 fijos),p50c · no-think muestreo MIT,placebo · thinking MIT,200,78,3,37.5,28.999999999999996,46.0,7.332294385792548e-20,3.1528865858907956e-18
+MATH-500 (100 fijos),p50c · no-think muestreo MIT,orig · rep 1.1 (thinking),400,113,17,24.0,17.75,30.25,1.4043782690503998e-18,5.89838873001168e-17
+MATH-500 (100 fijos),p50c · no-think muestreo MIT,orig · rep 1.05 (thinking),100,40,3,37.0,26.0,48.0,3.0213413992896676e-09,7.855487638153136e-08
+MATH-500 (100 fijos),p50c · no-think muestreo MIT,orig · presence 0 (thinking),100,50,0,50.0,41.0,60.0,1.7763568394002505e-15,6.927791673660977e-14
+MATH-500 (100 fijos),p50c · no-think muestreo MIT,orig · presence 2 (thinking),100,44,1,43.0,33.0,53.0,2.6147972675971687e-12,8.36735125631094e-11
+MATH-500 (100 fijos),p50c · no-think 32k,placebo · thinking MIT,200,88,4,42.0,34.0,50.5,1.1809998494304827e-21,5.432599307380221e-20
+MATH-500 (100 fijos),p50c · no-think 32k,orig · rep 1.1 (thinking),400,129,19,27.500000000000004,20.75,34.5,2.7684751815989e-21,1.245813831719505e-19
+MATH-500 (100 fijos),p50c · no-think 32k,orig · rep 1.05 (thinking),100,40,2,38.0,28.000000000000004,48.0,4.1109160520136356e-10,1.1921656550839543e-08
+MATH-500 (100 fijos),p50c · no-think 32k,orig · presence 0 (thinking),100,51,0,51.0,41.0,61.0,8.881784197001252e-16,3.552713678800501e-14
+MATH-500 (100 fijos),p50c · no-think 32k,orig · presence 2 (thinking),100,44,0,44.0,34.0,54.0,1.1368683772161603e-13,3.865352482534945e-12
+MATH-500 (100 fijos),placebo · thinking MIT,orig · rep 1.1 (thinking),200,6,26,-10.0,-15.5,-5.0,0.0005350527353584766,0.011771160177886486
+MATH-500 (100 fijos),placebo · thinking MIT,orig · rep 1.05 (thinking),100,6,8,-2.0,-9.0,5.0,0.79052734375,1.0
+MATH-500 (100 fijos),placebo · thinking MIT,orig · presence 0 (thinking),100,12,1,11.0,4.0,18.0,0.00341796875,0.07177734375
+MATH-500 (100 fijos),placebo · thinking MIT,orig · presence 2 (thinking),100,10,6,4.0,-4.0,12.0,0.454498291015625,1.0
+MATH-500 (100 fijos),orig · rep 1.1 (thinking),orig · rep 1.05 (thinking),100,11,5,6.0,-2.0,14.000000000000002,0.210113525390625,1.0
+MATH-500 (100 fijos),orig · rep 1.1 (thinking),orig · presence 0 (thinking),100,19,0,19.0,11.0,27.0,3.814697265625e-06,9.1552734375e-05
+MATH-500 (100 fijos),orig · rep 1.1 (thinking),orig · presence 2 (thinking),100,17,5,12.0,3.0,21.0,0.01690053939819336,0.32111024856567383
+MATH-500 (100 fijos),orig · rep 1.05 (thinking),orig · presence 0 (thinking),100,13,0,13.0,7.000000000000001,20.0,0.000244140625,0.005615234375
+MATH-500 (100 fijos),orig · rep 1.05 (thinking),orig · presence 2 (thinking),100,9,3,6.0,-1.0,13.0,0.14599609375,1.0
+MATH-500 (100 fijos),orig · presence 0 (thinking),orig · presence 2 (thinking),100,1,8,-7.000000000000001,-13.0,-2.0,0.0390625,0.5859375

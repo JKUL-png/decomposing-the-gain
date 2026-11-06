@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.jsonl
+!datos/*.jsonl
+modelos/
+.venv/

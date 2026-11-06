@@ -1,0 +1,2 @@
+motor,config,problemas,segundos,tokens_totales,tok_por_s_agregado,correctos,llegaron_al_limite,nota
+vllm,piloto_presence0,20,808.8,655360,810.3,0,20,"20 concurrentes; muestreo PyTorch (sin FlashInfer); gpu_memory_utilization 0.80; math-verify"

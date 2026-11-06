@@ -1,0 +1,8 @@
+configuracion,semillas,muestras,precision_pct,precision_boot_lo,precision_boot_hi,al_limite_pct,al_limite_boot_lo,al_limite_boot_hi
+linea_base_vllm,0 1 2 3,400,7.75,4.0,12.0,92.25,88.0,96.0
+cero_edicion_no_thinking,0 1 2 3,400,51.5,43.75,59.25,12.0,7.75,16.5
+dia_nothink_mit100,0,100,50.0,40.0,60.0,25.0,17.0,34.0
+cero_edicion_presence0,0,100,2.0,0.0,5.0,98.0,95.0,100.0
+cero_edicion_presence2,0,100,9.0,4.0,15.0,91.0,85.0,96.0
+cero_edicion_rep105,0,100,15.0,8.0,22.0,85.0,78.0,91.0
+cero_edicion_rep110,0 1 2 3,400,24.0,17.5,30.75,72.5,65.5,79.25

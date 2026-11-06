@@ -1,0 +1,1 @@
+{"variante": "B", "semilla": 0, "problemas": 100, "segundos": 1594.0, "tokens_totales": 1126842, "correctos": 34, "no_terminaron": 66, "forzadas": 87, "forzadas_no_cerraron": 62, "max_resp_forzada": 4096, "max_tokens": 32768, "detector": {"W": 300, "K": 3, "L": 6000, "cada": 512}, "intentos_max": 3}

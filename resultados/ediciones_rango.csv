@@ -1,0 +1,5 @@
+tensor,modelo,forma,columnas,norma_dW,rango_numerico,tolerancia,sv1,sv2,sv3,sv2_sobre_sv1,energia_sv1,rango_99,rango_999,residuo_rango1_rel,pct_entradas_iguales_rango1_bf16
+model.language_model.layers.15.mlp.down_proj.weight,p50c_MIT,1024x3584,64,1.74889,64,1.392e-12,1.748883,0.000987,0.000949,0.000565,0.999995,1,1,0.002337,91.016
+model.language_model.layers.19.mlp.down_proj.weight,p50c_MIT,1024x3584,64,1.39876,64,1.113e-12,1.398757,0.000901,0.000814,0.000644,0.999991,1,1,0.002936,90.607
+model.language_model.layers.15.mlp.down_proj.weight,placebo,1024x3584,64,1.74889,64,1.392e-12,1.748882,0.001041,0.00099,0.000595,0.999994,1,1,0.002517,91.362
+model.language_model.layers.19.mlp.down_proj.weight,placebo,1024x3584,64,1.39876,64,1.113e-12,1.398756,0.000959,0.000939,0.000686,0.99999,1,1,0.003085,91.277

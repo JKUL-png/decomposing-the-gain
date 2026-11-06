@@ -1,0 +1,2 @@
+variante,semillas_comunes,parejas,dif_total_pts,dif_total_boot_lo,dif_total_boot_hi,antes_limite_parejas,antes_limite_correctos_base,antes_limite_correctos_variante,antes_limite_corto_bucle,antes_limite_contribucion_pts,ya_terminaban_parejas,ya_terminaban_correctos_base,ya_terminaban_correctos_variante,ya_terminaban_perdidos,ya_terminaban_ganados,ya_terminaban_contribucion_pts
+nothink_mit_4sem,0 1 2 3,400,37.5,30.75,44.5,369,0,155,254,38.75,31,31,26,5,0,-1.25

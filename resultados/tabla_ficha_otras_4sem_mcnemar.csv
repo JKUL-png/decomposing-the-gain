@@ -1,0 +1,9 @@
+tabla,A,B,parejas,b,c,dif_A_menos_B_pts,dif_boot_lo,dif_boot_hi,p_mcnemar_exacto,p_holm
+GSM8K subconjunto 1 · ficha Qwen · semillas 0-3,orig · thinking ficha Qwen (temp 1.0),p50c · thinking ficha Qwen (temp 1.0),400,27,82,-13.750000000000002,-19.75,-7.75,1.2607715321717734e-07,3.7823145965153204e-07
+GSM8K subconjunto 1 · ficha Qwen · semillas 0-3,orig · thinking ficha Qwen (temp 1.0),orig · thinking MIT (temp 0.6),100,21,2,19.0,11.0,28.000000000000004,6.604194641113281e-05,0.00013208389282226562
+GSM8K subconjunto 1 · ficha Qwen · semillas 0-3,p50c · thinking ficha Qwen (temp 1.0),p50c · thinking MIT (temp 0.6),400,16,89,-18.25,-23.75,-12.75,1.8713127456458602e-13,7.485250982583441e-13
+GSM8K subconjunto 1 · ficha Qwen · semillas 0-3,p50c · thinking ficha Qwen (temp 1.0),orig · no-think muestreo MIT,400,52,68,-4.0,-10.5,2.5,0.17064521313035166,0.17064521313035166
+IFEval · ficha Qwen · semillas 0-3,orig · thinking ficha Qwen (temp 1.0),p50c · thinking ficha Qwen (temp 1.0),400,83,55,7.000000000000001,0.25,13.750000000000002,0.021199549692339257,0.042399099384678514
+IFEval · ficha Qwen · semillas 0-3,orig · thinking ficha Qwen (temp 1.0),orig · thinking MIT (temp 0.6),100,43,6,37.0,25.0,48.0,5.7277652842913085e-08,2.2911061137165234e-07
+IFEval · ficha Qwen · semillas 0-3,p50c · thinking ficha Qwen (temp 1.0),p50c · thinking MIT (temp 0.6),400,38,84,-11.5,-17.5,-5.75,3.791880632913345e-05,0.00011375641898740036
+IFEval · ficha Qwen · semillas 0-3,p50c · thinking ficha Qwen (temp 1.0),orig · no-think muestreo MIT,400,58,77,-4.75,-12.25,2.5,0.12101372565511773,0.12101372565511773

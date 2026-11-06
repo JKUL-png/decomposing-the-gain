@@ -1,0 +1,4 @@
+conjunto,prefijo,semillas,ventana_W,repeticiones_K,ultimos_L,paso_chars,respuestas,llegaron_limite,detectadas,terminaron,falsos_positivos,tokens_al_disparar_mediana,tokens_al_disparar_p90
+MATH original thinking,linea_base_vllm,0 1 2 3,300,3,6000,1500,400,369,358,31,0,8355,14728
+GSM8K original thinking,r2_gsm8k_orig_think,0,300,3,6000,1500,100,84,84,16,0,6128,10484
+MATH p50c thinking,r2_ed_think,0 1 2 3,300,3,6000,1500,400,117,68,283,56,17750,28895

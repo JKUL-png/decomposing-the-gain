@@ -1,0 +1,5 @@
+tensor,modelo,norma_dW,norma_W,cambio_relativo,columnas
+model.language_model.layers.15.mlp.down_proj.weight,p50c_MIT,1.74889,16.4428,0.106362,64
+model.language_model.layers.15.mlp.down_proj.weight,placebo,1.74889,16.4428,0.106362,64
+model.language_model.layers.19.mlp.down_proj.weight,p50c_MIT,1.39876,17.2553,0.081063,64
+model.language_model.layers.19.mlp.down_proj.weight,placebo,1.39876,17.2553,0.081063,64

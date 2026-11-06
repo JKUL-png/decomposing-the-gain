@@ -1,0 +1,21 @@
+brazo,prefijo,semilla,n,correctos,precision_pct,ic_lo,ic_hi,tipo_ic,al_limite_pct,terminaron,correctos_terminaron,tokens_medios
+orig · thinking ficha Qwen (temp 1.0),cero_edicion_ficha_qwen,0,100,18,18.0,11.700131654251038,26.667536024213085,wilson,82.0,18,18,29747.4
+orig · thinking ficha Qwen (temp 1.0),cero_edicion_ficha_qwen,1,100,13,13.0,7.757093858414264,20.98052189480988,wilson,87.0,13,13,30022.45
+orig · thinking ficha Qwen (temp 1.0),cero_edicion_ficha_qwen,2,100,23,23.0,15.843154746876406,32.1545648568277,wilson,77.0,23,23,29351.56
+orig · thinking ficha Qwen (temp 1.0),cero_edicion_ficha_qwen,3,100,17,17.0,10.893476059773155,25.548181233642975,wilson,83.0,17,17,29525.68
+orig · thinking ficha Qwen (temp 1.0),cero_edicion_ficha_qwen,0 1 2 3,400,71,17.75,12.0,24.0,bootstrap_problema,82.25,71,71,29661.7725
+p50c · thinking ficha Qwen (temp 1.0),r2_ed_ficha_qwen,0,100,28,28.0,20.13955916759837,37.488212361345724,wilson,63.0,37,28,26140.75
+p50c · thinking ficha Qwen (temp 1.0),r2_ed_ficha_qwen,1,100,28,28.0,20.13955916759837,37.488212361345724,wilson,66.0,34,28,26788.01
+p50c · thinking ficha Qwen (temp 1.0),r2_ed_ficha_qwen,2,100,31,31.0,22.779563206132377,40.62623947795569,wilson,63.0,37,31,27038.03
+p50c · thinking ficha Qwen (temp 1.0),r2_ed_ficha_qwen,3,100,28,28.0,20.13955916759837,37.488212361345724,wilson,65.0,35,28,27060.88
+p50c · thinking ficha Qwen (temp 1.0),r2_ed_ficha_qwen,0 1 2 3,400,115,28.749999999999996,21.25,37.0,bootstrap_problema,64.25,143,115,26756.9175
+orig · thinking MIT (temp 0.6),linea_base_vllm,0,100,7,7.0,3.4318824364064096,13.749671006529757,wilson,93.0,7,7,31039.31
+orig · thinking MIT (temp 0.6),linea_base_vllm,1,100,9,9.0,4.807199516388487,16.226374696643667,wilson,91.0,9,9,30665.11
+orig · thinking MIT (temp 0.6),linea_base_vllm,2,100,6,6.0,2.778574526665662,12.476968531222507,wilson,94.0,6,6,31091.03
+orig · thinking MIT (temp 0.6),linea_base_vllm,3,100,9,9.0,4.807199516388487,16.226374696643667,wilson,91.0,9,9,30283.81
+orig · thinking MIT (temp 0.6),linea_base_vllm,0 1 2 3,400,31,7.75,4.0,12.0,bootstrap_problema,92.25,31,31,30769.815
+p50c · thinking MIT (temp 0.6),r2_ed_think,0,100,51,51.0,41.34784047743415,60.578169907613855,wilson,36.0,64,51,21898.69
+p50c · thinking MIT (temp 0.6),r2_ed_think,1,100,51,51.0,41.34784047743415,60.578169907613855,wilson,28.0,72,51,21573.09
+p50c · thinking MIT (temp 0.6),r2_ed_think,2,100,50,50.0,40.38298285901472,59.61701714098528,wilson,29.0,71,50,21649.93
+p50c · thinking MIT (temp 0.6),r2_ed_think,3,100,53,53.0,43.28868313724773,62.48934801789626,wilson,24.0,76,53,20621.4
+p50c · thinking MIT (temp 0.6),r2_ed_think,0 1 2 3,400,205,51.24999999999999,43.0,59.5,bootstrap_problema,29.25,283,205,21435.7775

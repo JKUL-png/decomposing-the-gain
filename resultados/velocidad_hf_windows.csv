@@ -1,0 +1,4 @@
+batch,tokens_por_resp,segundos,tok_s_total,tok_s_por_resp,vram_pico_gb
+1,128,3.48,36.8,36.8,1.46
+8,128,3.52,291.1,36.4,1.66
+32,128,5.31,772.0,24.1,2.36

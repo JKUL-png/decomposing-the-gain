@@ -1,0 +1,6 @@
+escenario,lote,ms_por_paso,horas,tok_s_efectivos,origen
+HF Windows lote 1,1,27.2,115.7,37,medido (contexto corto)
+HF Windows lote 8 (optimista),8,27.5,15.8,270,medido (contexto corto)
+HF Windows lote 8 (realista),8,40.0,22.9,185,ESTIMADO: contexto largo + DynamicCache
+vLLM WSL2 lote 12 (optimista),12,12.0,4.6,927,"ESTIMADO, no medido"
+vLLM WSL2 lote 12 (prudente),12,20.0,7.6,556,"ESTIMADO, no medido"

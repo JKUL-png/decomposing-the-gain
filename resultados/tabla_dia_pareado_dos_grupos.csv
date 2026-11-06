@@ -1,0 +1,7 @@
+variante,semillas_comunes,parejas,dif_total_pts,dif_total_boot_lo,dif_total_boot_hi,antes_limite_parejas,antes_limite_correctos_base,antes_limite_correctos_variante,antes_limite_corto_bucle,antes_limite_contribucion_pts,ya_terminaban_parejas,ya_terminaban_correctos_base,ya_terminaban_correctos_variante,ya_terminaban_perdidos,ya_terminaban_ganados,ya_terminaban_contribucion_pts
+cero_edicion_no_thinking,0 1 2 3,400,43.75,36.25,51.24999999999999,369,0,179,321,44.75,31,31,27,4,0,-1.0
+dia_nothink_mit100,0,100,43.0,33.0,53.0,93,0,44,68,44.0,7,7,6,1,0,-1.0
+cero_edicion_presence0,0,100,-5.0,-10.0,0.0,93,0,1,1,1.0,7,7,1,6,0,-6.0
+cero_edicion_presence2,0,100,2.0,-5.0,9.0,93,0,7,7,7.0,7,7,2,5,0,-5.0
+cero_edicion_rep105,0,100,8.0,2.0,14.000000000000002,93,0,9,9,9.0,7,7,6,1,0,-1.0
+cero_edicion_rep110,0 1 2 3,400,16.25,11.25,21.5,369,0,69,83,17.25,31,31,27,4,0,-1.0

@@ -1,0 +1,6 @@
+id,regla,seleccion
+test/algebra/2789.json,both_fixed,a mano por legibilidad
+test/algebra/305.json,both_fixed,a mano por legibilidad
+test/number_theory/515.json,both_fixed,a mano por legibilidad
+test/algebra/2199.json,edit_still_loops,"nivel más bajo, luego ciclo más corto"
+test/prealgebra/105.json,nothink_wrong,"nivel más bajo, luego ciclo más corto"

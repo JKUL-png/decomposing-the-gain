@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Decomposing the Gain</title>
+<meta name="description" content="An LLM edited a small model's weights and fixed its reasoning loops. How much of that gain do cheap baselines recover?">
+<link rel="stylesheet" href="vendor/katex/katex.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<header class="masthead">
+  <p class="kicker">Audit notebook</p>
+  <h1>Decomposing the Gain</h1>
+  <p class="deck">An LLM edited two weight matrices of a small model and <a href="https://rikiyat.github.io/blog/weight-space-programming/">reportedly lifted its MATH-500 score from 7.9% to 48.1%</a>. We asked how much of that gain you can get without editing anything.</p>
+  <p class="byline"><strong>JKUL</strong> · November 2026<br>
+  Paper by Juan José Giraldo Márquez and Juan José Gómez · <a href="paper.pdf">Read the paper (PDF)</a> · <a href="https://github.com/JKUL-png/decomposing-the-gain">Code and data</a></p>
+</header>
+
+<section class="tldr" aria-labelledby="tldr-title">
+  <h2 id="tldr-title">TL;DR</h2>
+  <p>The edit is real. We reproduce it, and a random edit of the same size does almost nothing. But most of the gain does not need an edit: on MATH-500, turning thinking off with the full token limit reaches the same score. And the gain depends on the sampling temperature. At the temperature Qwen recommends, it falls from +43.5 to +11.0 points.</p>
+  <dl class="stats">
+    <div><dt>7.8% → 51.2%</dt><dd>Unedited → <code>p50c</code>, in thinking mode. Our replication.</dd></div>
+    <div><dt>51.5%</dt><dd>Unedited, no-think, 32k. No weights changed.</dd></div>
+    <div><dt>11.0%</dt><dd>Placebo: a random edit with the same size and location.</dd></div>
+    <div><dt>+43.5 → +11.0</dt><dd>The edit's gain in points, at temperature 0.6 → 1.0.</dd></div>
+  </dl>
+  <p class="note">MATH-500, 100 fixed problems, 4 seeds (placebo: 2 seeds). <code>p50c</code> is the published edit.</p>
+</section>
+
+<section aria-labelledby="loop-title">
+  <h2 id="loop-title">The loop</h2>
+  <p>In thinking mode, Qwen3.5-0.8B often never stops. 92.2% of its responses use up all 32,768 tokens. It gets stuck repeating itself, and it never reaches an answer.</p>
+  <p>Here are real responses to the same problem. All three run at the same speed, so you can see which ones finish.</p>
+
+  <figure class="player" id="player" aria-label="Replay of real model responses">
+    <div class="chips" id="chips" role="group" aria-label="Choose a problem"></div>
+    <p class="problem" id="problem"></p>
+    <div class="race" id="race" role="group" aria-label="Choose a response to read"></div>
+    <p class="reps" id="reps"></p>
+    <div class="screen" id="screen" tabindex="0" aria-label="Text of the selected response"></div>
+    <p class="status" id="status" aria-live="polite"></p>
+    <div class="controls">
+      <button type="button" id="play">Pause</button>
+      <button type="button" id="restart">Restart</button>
+      <span class="clock" id="clock"></span>
+    </div>
+    <noscript><p>This replay needs JavaScript. The full responses are linked from the repository.</p></noscript>
+  </figure>
+  <p class="note">Real outputs from seed 0, sped up. Long stretches are skipped and marked in the text. The token count is estimated during playback, and the final count is exact.</p>
+  <p class="note" data-select>How these were chosen: at seed 0, 30 of the 100 problems make the unedited model hit the limit while <code>p50c</code> and no-think, 32k both answer correctly. We picked the first three from that group because they are easy to read. The last two show failures and were picked by rule (lowest difficulty, then shortest cycle): 7 problems where <code>p50c</code> also hits the limit, and 12 where no-think, 32k finishes with a wrong answer.</p>
+</section>
+
+<section aria-labelledby="rep-title">
+  <h2 id="rep-title">We replicated it first</h2>
+  <p>We rebuilt the published edit bit for bit from the authors' files, and ran it with their exact configuration. The unedited model scores 7.8% and <code>p50c</code> scores 51.2% on our 100 problems. Both are consistent with the reported 7.9% and 48.1%.</p>
+  <p>The gain of +43.5 points goes one way only. In 174 (problem, seed) pairs only the edited model is right, and in none only the unedited one. So everything below decomposes the same effect the original work reported.</p>
+</section>
+
+<section aria-labelledby="off-title">
+  <h2 id="off-title">Turn thinking off</h2>
+  <p>The obvious knobs against repetition help only modestly: the best one, repetition_penalty 1.1, reaches 24.0%. Switching thinking off moves accuracy as much as the edit does.</p>
+
+  <figure class="chart" id="fig1"><figcaption><strong>Accuracy against the share of responses that hit the token limit.</strong> MATH-500, one point per configuration. Tap a point.</figcaption></figure>
+
+  <p>With the full token limit, the unedited model without thinking scores 51.5%. That ties <code>p50c</code> at 51.2%: the paired difference is +0.2 points (CI −5.5 to +6.0). With the original authors' no-thinking profile it scores 45.2%, and that gap is not significant after correction.</p>
+
+  <figure class="chart" id="fig4"><figcaption><strong>Edit × thinking.</strong> Choose a benchmark and a mode. With thinking off, the edit stops helping.</figcaption></figure>
+
+  <p>In no-thinking mode the edit adds nothing on MATH: at 32k both models score 51.5%.</p>
+
+  <figure class="chart" id="fig3"><figcaption><strong>How much of the edit's gain thinking-off recovers.</strong> The recovered fraction is the no-thinking gain divided by the edit's gain.</figcaption></figure>
+
+  <p>The gain from thinking-off comes from responses that used to loop, the same group where <a href="https://x.com/solomonmg/status/2117650796342894884">Sol Messing's audit</a> located the edit's gain.</p>
+
+  <figure class="chart" id="fig2"><figcaption><strong>Where the gain of each no-edit variant comes from.</strong> MATH-500, change in accuracy against the baseline, in points.</figcaption></figure>
+</section>
+
+<section aria-labelledby="spec-title">
+  <h2 id="spec-title">It isn't random</h2>
+  <p>The edit is small: it changes two tensors by 8–11% of their norm, in 64 columns each, and it is effectively rank one. So could any change of that size break the loops?</p>
+  <p>No. A placebo with the same norm, tensors and columns, in a random direction, stays near the unedited model. The real edit is 40.0 points better on the same seeds. Its direction matters. This is the strongest point in favor of the original work.</p>
+  <figure class="chart" id="fig5"><figcaption><strong>Placebo edit against the real edit.</strong> MATH-500, thinking configuration of the original work.</figcaption></figure>
+  <p class="note">The placebo is limited to two seeds, MATH only, and one kind of random direction.</p>
+</section>
+
+<section aria-labelledby="temp-title">
+  <h2 id="temp-title">Change one number</h2>
+  <p>The original work ran at temperature 0.6. The Qwen model card recommends the same thinking configuration with one change: temperature 1.0. So we ran both models there, with four seeds.</p>
+  <figure class="chart" id="fig6"><figcaption><strong>Sensitivity to sampling temperature.</strong> Two configurations, not a sweep. The thin tick marks the other temperature.</figcaption></figure>
+  <p>On MATH, the gain falls from +43.5 to +11.0 points, because the edited model loops again: 64.2% of its responses hit the limit, against 29.2%. On GSM8K the gain is +13.8 points (CI +7.8 to +19.8), and the edited model's limit rate rises from 6.0% to 36.5%.</p>
+  <p>On IFEval the order reverses: the unedited model is 7.0 points above the edited one (CI +0.2 to +13.8). The interval nearly touches zero, so this is weak evidence that the edit hurts there, and firmer evidence that its advantage is gone. Looping does not explain that drop, since 1.0% of the edited model's responses hit the limit at both temperatures.</p>
+  <p>This does not make the edit wrong. It means that "7.9% → 48.1%" describes one configuration, not the model.</p>
+</section>
+
+<section aria-labelledby="cut-title">
+  <h2 id="cut-title">Cut the loop</h2>
+  <p>A second cheap baseline keeps thinking on, as the model card suggests: watch the stream, and act when a loop appears. Retrying (A) helps little, reaching 13.0% on MATH. Cutting the loop and forcing an answer (B) reaches 34.0% on MATH and 57.0% on GSM8K. On MATH it costs 11,268 tokens per problem, about half of the edited model's 21,899.</p>
+  <figure class="chart" id="fig7"><figcaption><strong>Accuracy against token cost.</strong> All points are from seed 0. Up and to the left is better. Tap a point.</figcaption></figure>
+  <p>It stays below the edit, by 17.0 points on MATH and 14.0 on GSM8K. Part of that gap is our own design: the forced answer has a cap, so B is a lower bound. The comparison is also asymmetric, because we gave loop handling only to the unedited model.</p>
+  <p>The cheapest way to stop the loops is also the cheapest to run. Mean tokens per response on MATH are 30,770 for the unedited model in thinking, 21,436 for <code>p50c</code>, 7,955 for no-think, 32k, and 3,388 for no-think, MIT sampling. We cannot measure the cost of finding the edit.</p>
+</section>
+
+<section aria-labelledby="left-title">
+  <h2 id="left-title">What's left</h2>
+  <p>One part of the edit's benefit is not explained by any cheap baseline we tried: at temperature 0.6, <code>p50c</code> with thinking stays above the unedited model without thinking. At temperature 1.0, with 4 seeds, that residual disappears.</p>
+  <div class="residual">
+    <table>
+      <caption><code>p50c</code> thinking minus unedited no-think, in points</caption>
+      <thead><tr><th>Benchmark</th><th>Temp 0.6</th><th>Temp 1.0</th></tr></thead>
+      <tbody>
+        <tr><th>GSM8K</th><td>+11.6<small>CI +7.6 to +15.8</small></td><td>−4.0<small>CI −10.5 to +2.5</small></td></tr>
+        <tr><th>IFEval</th><td>+6.8<small>weak: its interval touches zero</small></td><td>−4.8<small>CI −12.2 to +2.5</small></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="note">GSM8K at temperature 0.6 pools 200 problems across two disjoint subsets. At temperature 1.0 it uses subset 1, and neither difference is significant.</p>
+  <p>This residual belongs to the edit combined with thinking, not to the edit alone: with thinking off, <code>p50c</code> is no better than the unedited model. Whether it survives other sampling settings is the question most worth studying further.</p>
+</section>
+
+<section aria-labelledby="right-title">
+  <h2 id="right-title">What the original work got right</h2>
+  <p>This decomposition is only possible because of how the work was published.</p>
+  <ul>
+    <li><strong>It published everything needed to check it:</strong> the edits, the code that applies them, the sampling configuration and the full logs.</li>
+    <li><strong>The headline result replicates.</strong></li>
+    <li><strong>The edit is small and specific.</strong> It found a direction in weight space that matters.</li>
+    <li><strong>It is not just "thinking off", and was not allowed to be.</strong> The editing prompt ruled that out, and the edit keeps the reasoning.</li>
+    <li><strong>Its baseline is a reasonable one.</strong> We see no sign that it was chosen to look weak.</li>
+  </ul>
+  <p>Our disagreement is about attribution, not about whether the edit works. Several controls here come from Sol Messing's public audit of the logs.</p>
+</section>
+
+<section aria-labelledby="lim-title">
+  <h2 id="lim-title">Limitations</h2>
+  <ul>
+    <li><strong>Small, fixed problem sets.</strong> We use 100 problems per benchmark, where the original used 500 × 4.</li>
+    <li><strong>Seeds are not independent samples,</strong> so p-values on pooled seeds are optimistic.</li>
+    <li><strong>Exploratory analyses.</strong> This study was not preregistered. The second GSM8K subset and the model-card configuration were added after seeing results.</li>
+    <li><strong>One seed for the unedited thinking baseline on GSM8K and IFEval,</strong> so comparing the edit's gain between temperatures on those benchmarks rests on that seed.</li>
+    <li><strong>Loop handling is single-seed and asymmetric.</strong></li>
+    <li><strong>IFEval checker.</strong> We use lm-eval's checker, so our IFEval numbers are not comparable to the original ones.</li>
+    <li><strong>Scope.</strong> One model and one failure mode. We did not run the "prompt without a hint" control.</li>
+  </ul>
+  <p>The paper lists all of them in §12.</p>
+</section>
+
+<section aria-labelledby="read-title">
+  <h2 id="read-title">Read more</h2>
+  <p><a href="paper.pdf">Paper (PDF)</a> · <a href="https://github.com/JKUL-png/decomposing-the-gain">Code and data</a>. Over the whole study, the 99 distinct runs took 2,106 GPU minutes on one consumer GPU.</p>
+  <div class="cite">
+    <button type="button" id="copy">Copy citation</button>
+    <pre id="bibtex">@misc{giraldo2026decomposing,
+  title  = {Decomposing the Gain: How Much of a Weight-Space Edit's
+            Fix for Reasoning Loops Do Cheap Baselines Recover?},
+  author = {Giraldo M{\'a}rquez, Juan Jos{\'e} and G{\'o}mez, Juan Jos{\'e}},
+  year   = {2026},
+  url    = {https://github.com/JKUL-png/decomposing-the-gain}
+}</pre>
+  </div>
+  <p class="note">The code, analysis scripts and figures were written with AI assistance (Claude Code). The authors take full responsibility for the content; see the AI use statement in the paper.</p>
+</section>
+</main>
+<script src="vendor/katex/katex.min.js"></script>
+<script src="data/data.js"></script>
+<script src="js/player.js"></script>
+<script src="js/charts.js"></script>
+</body>
+</html>

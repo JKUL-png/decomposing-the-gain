@@ -1,0 +1,7 @@
+corrida,semilla,n,precision_estricta_pct,precision_texto_completo_pct,correctos_al_limite
+cero_edicion_no_thinking,0,100,48.0,49.0,1
+cero_edicion_no_thinking,1,100,49.0,49.0,0
+cero_edicion_no_thinking,2,100,56.99999999999999,56.99999999999999,0
+cero_edicion_no_thinking,3,100,52.0,52.0,0
+dia_nothink_mit100,0,100,50.0,50.0,0
+dia_nothink_mit500,0,500,44.800000000000004,45.4,3

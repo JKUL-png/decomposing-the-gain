@@ -1,0 +1,9 @@
+tarea,brazo,semilla,n,correctos,precision_pct,precision_wilson_lo,precision_wilson_hi,terminaron_pct,forzados,forzados_tope_sin_cerrar,intentos_medios,tokens_totales_por_problema,tokens_totales_suma
+MATH-500 (100 fijos),"orig · thinking MIT (referencia, 1 intento)",0,100,7,7.0,3.4318824364064096,13.749671006529757,6.999999999999995,0,0,1.0,31039.31,3103931
+MATH-500 (100 fijos),A · reintento (hasta 3),0,100,13,13.0,7.757093858414264,20.98052189480988,13.0,0,0,2.69,23773.04,2377304
+MATH-500 (100 fijos),B · forzar respuesta,0,100,34,34.0,25.461379497543003,43.722454341689065,34.0,87,62,1.0,11268.42,1126842
+MATH-500 (100 fijos),p50c · thinking MIT (misma semilla 0),0,100,51,51.0,41.34784047743415,60.578169907613855,64.0,0,0,1.0,21898.69,2189869
+GSM8K (subconjunto 1),"orig · thinking MIT (referencia, 1 intento)",0,100,16,16.0,10.095202349473716,24.420444558894413,16.000000000000004,0,0,1.0,28145.05,2814505
+GSM8K (subconjunto 1),A · reintento (hasta 3),0,100,25,25.0,17.54509400372426,34.30464637007583,27.0,0,0,2.66,17016.23,1701623
+GSM8K (subconjunto 1),B · forzar respuesta,0,100,57,57.0,47.21521169586435,66.26686099947162,62.0,87,36,1.0,8698.33,869833
+GSM8K (subconjunto 1),p50c · thinking MIT (misma semilla 0),0,100,71,71.0,61.460925059992064,78.98529302601585,93.0,0,0,1.0,11672.21,1167221

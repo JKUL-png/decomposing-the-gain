@@ -1,0 +1,15 @@
+tabla,brazo,semillas,muestras,problemas,precision_pct,precision_boot_lo,precision_boot_hi,al_limite_pct,terminaron,correctos_terminaron,precision_terminaron_pct,tokens_medios
+GSM8K subconjunto 1 (100 problemas),p50c · thinking MIT,0 1 2 3,400,100,67.5,59.75,75.0,6.0,376,270,71.80851063829788,11626.69
+GSM8K subconjunto 1 (100 problemas),p50c · no-think muestreo MIT,0 1 2 3,400,100,53.0,45.75,60.25,3.75,385,212,55.064935064935064,1262.33
+GSM8K subconjunto 1 (100 problemas),orig · no-think muestreo MIT,0 1 2 3,400,100,53.25,46.0,60.5,5.5,378,213,56.34920634920635,1304.7825
+GSM8K subconjunto 1 (100 problemas),orig · thinking MIT (solo semilla 0),0,100,100,16.0,9.0,24.0,84.0,16,16,100.0,28145.05
+"GSM8K subconjunto b (100 problemas distintos, semilla 20261105)",p50c · thinking MIT,0 1 2 3,400,100,65.75,57.75,73.25,9.25,363,263,72.45179063360881,12939.825
+"GSM8K subconjunto b (100 problemas distintos, semilla 20261105)",p50c · no-think muestreo MIT,0 1 2 3,400,100,55.75,48.25,63.24999999999999,3.5000000000000004,386,223,57.77202072538861,1229.4925
+"GSM8K subconjunto b (100 problemas distintos, semilla 20261105)",orig · no-think muestreo MIT,0 1 2 3,400,100,56.75,48.75,64.5,3.25,387,227,58.656330749354005,1013.9025
+GSM8K subconjuntos 1 + b juntos (200 problemas),p50c · thinking MIT,0 1 2 3,800,200,66.625,61.12499999999999,72.0,7.625,739,533,72.12449255751014,12283.2575
+GSM8K subconjuntos 1 + b juntos (200 problemas),p50c · no-think muestreo MIT,0 1 2 3,800,200,54.37499999999999,49.125,59.62499999999999,3.6249999999999996,771,435,56.42023346303502,1245.91125
+GSM8K subconjuntos 1 + b juntos (200 problemas),orig · no-think muestreo MIT,0 1 2 3,800,200,55.00000000000001,49.75,60.375,4.375,765,440,57.51633986928104,1159.3425
+"IFEval (100 problemas, estricto a nivel de prompt)",p50c · thinking MIT,0 1 2 3,400,100,57.99999999999999,50.5,65.75,1.0,396,232,58.58585858585859,3659.4425
+"IFEval (100 problemas, estricto a nivel de prompt)",p50c · no-think muestreo MIT,0 1 2 3,400,100,46.0,38.0,54.0,0.0,400,184,46.0,238.9175
+"IFEval (100 problemas, estricto a nivel de prompt)",orig · no-think muestreo MIT,0 1 2 3,400,100,51.24999999999999,43.25,59.0,0.5,398,205,51.507537688442206,279.39
+"IFEval (100 problemas, estricto a nivel de prompt)",orig · thinking MIT (solo semilla 0),0,100,100,21.0,13.0,28.999999999999996,69.0,31,21,67.74193548387096,23733.31

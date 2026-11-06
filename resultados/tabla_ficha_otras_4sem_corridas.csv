@@ -1,0 +1,43 @@
+tarea,brazo,prefijo,semilla,n,correctos,precision_pct,ic_lo,ic_hi,tipo_ic,al_limite_pct,terminaron,correctos_terminaron,tokens_medios
+GSM8K subconjunto 1,orig · thinking ficha Qwen (temp 1.0),r2_gsm8k_orig_ficha,0,100,35,35.0,26.36410465347802,44.74573957080203,wilson,63.0,37,35,26188.04
+GSM8K subconjunto 1,orig · thinking ficha Qwen (temp 1.0),r2_gsm8k_orig_ficha,1,100,34,34.0,25.461379497543003,43.722454341689065,wilson,64.0,36,33,26454.26
+GSM8K subconjunto 1,orig · thinking ficha Qwen (temp 1.0),r2_gsm8k_orig_ficha,2,100,41,41.0,31.867157095664655,50.79874943890338,wilson,55.0,45,41,24893.38
+GSM8K subconjunto 1,orig · thinking ficha Qwen (temp 1.0),r2_gsm8k_orig_ficha,3,100,32,32.0,23.669010815456883,41.66280225367919,wilson,65.0,35,32,26669.82
+GSM8K subconjunto 1,orig · thinking ficha Qwen (temp 1.0),r2_gsm8k_orig_ficha,0 1 2 3,400,142,35.5,28.249999999999996,43.0,bootstrap_problema,61.75000000000001,153,141,26051.375
+GSM8K subconjunto 1,p50c · thinking ficha Qwen (temp 1.0),r2_gsm8k_ed_ficha,0,100,55,55.0,45.24442703164345,64.38562489359654,wilson,32.0,68,55,19803.31
+GSM8K subconjunto 1,p50c · thinking ficha Qwen (temp 1.0),r2_gsm8k_ed_ficha,1,100,45,45.0,35.614375106403465,54.75557296835656,wilson,41.0,59,44,22406.58
+GSM8K subconjunto 1,p50c · thinking ficha Qwen (temp 1.0),r2_gsm8k_ed_ficha,2,100,49,49.0,39.42183009238615,58.65215952256586,wilson,37.0,63,48,21858.97
+GSM8K subconjunto 1,p50c · thinking ficha Qwen (temp 1.0),r2_gsm8k_ed_ficha,3,100,48,48.0,38.46438432008055,57.683594909823455,wilson,36.0,64,48,21911.58
+GSM8K subconjunto 1,p50c · thinking ficha Qwen (temp 1.0),r2_gsm8k_ed_ficha,0 1 2 3,400,197,49.25,41.0,57.25,bootstrap_problema,36.5,254,195,21495.11
+GSM8K subconjunto 1,orig · thinking MIT (temp 0.6),r2_gsm8k_orig_think,0,100,16,16.0,10.095202349473716,24.420444558894413,wilson,84.0,16,16,28145.05
+GSM8K subconjunto 1,p50c · thinking MIT (temp 0.6),r2_gsm8k_ed_think,0,100,71,71.0,61.460925059992064,78.98529302601585,wilson,7.0,93,71,11672.21
+GSM8K subconjunto 1,p50c · thinking MIT (temp 0.6),r2_gsm8k_ed_think,1,100,68,68.0,58.33719774632081,76.33098918454311,wilson,6.0,94,68,11947.47
+GSM8K subconjunto 1,p50c · thinking MIT (temp 0.6),r2_gsm8k_ed_think,2,100,63,63.0,53.22034757513312,71.81778743049082,wilson,7.0,93,63,11333.42
+GSM8K subconjunto 1,p50c · thinking MIT (temp 0.6),r2_gsm8k_ed_think,3,100,68,68.0,58.33719774632081,76.33098918454311,wilson,4.0,96,68,11553.66
+GSM8K subconjunto 1,p50c · thinking MIT (temp 0.6),r2_gsm8k_ed_think,0 1 2 3,400,270,67.5,59.75,75.0,bootstrap_problema,6.0,376,270,11626.69
+GSM8K subconjunto 1,orig · no-think muestreo MIT,r2_gsm8k_orig_nothink,0,100,54,54.0,44.264685393523855,63.439356146668146,wilson,6.0,94,54,1205.35
+GSM8K subconjunto 1,orig · no-think muestreo MIT,r2_gsm8k_orig_nothink,1,100,51,51.0,41.34784047743415,60.578169907613855,wilson,6.0,94,51,1261.4
+GSM8K subconjunto 1,orig · no-think muestreo MIT,r2_gsm8k_orig_nothink,2,100,58,58.0,48.20630799889527,67.2017750814887,wilson,8.0,92,58,1594.27
+GSM8K subconjunto 1,orig · no-think muestreo MIT,r2_gsm8k_orig_nothink,3,100,50,50.0,40.38298285901472,59.61701714098528,wilson,2.0,98,50,1158.11
+GSM8K subconjunto 1,orig · no-think muestreo MIT,r2_gsm8k_orig_nothink,0 1 2 3,400,213,53.25,46.25,60.25,bootstrap_problema,5.5,378,213,1304.7825
+IFEval,orig · thinking ficha Qwen (temp 1.0),r2_ifeval_orig_ficha,0,100,58,58.0,48.20630799889527,67.2017750814887,wilson,19.0,81,57,9766.32
+IFEval,orig · thinking ficha Qwen (temp 1.0),r2_ifeval_orig_ficha,1,100,51,51.0,41.34784047743415,60.578169907613855,wilson,20.0,80,50,9707.29
+IFEval,orig · thinking ficha Qwen (temp 1.0),r2_ifeval_orig_ficha,2,100,50,50.0,40.38298285901472,59.61701714098528,wilson,17.0,83,50,9233.55
+IFEval,orig · thinking ficha Qwen (temp 1.0),r2_ifeval_orig_ficha,3,100,55,55.0,45.24442703164345,64.38562489359654,wilson,22.0,78,55,10813.88
+IFEval,orig · thinking ficha Qwen (temp 1.0),r2_ifeval_orig_ficha,0 1 2 3,400,214,53.5,46.5,60.5,bootstrap_problema,19.5,322,212,9880.26
+IFEval,p50c · thinking ficha Qwen (temp 1.0),r2_ifeval_ed_ficha,0,100,47,47.0,37.51065198210374,56.71131686275227,wilson,0.0,100,47,3409.1
+IFEval,p50c · thinking ficha Qwen (temp 1.0),r2_ifeval_ed_ficha,1,100,44,44.0,34.67186540096833,53.7720722887437,wilson,2.0,98,44,3867.08
+IFEval,p50c · thinking ficha Qwen (temp 1.0),r2_ifeval_ed_ficha,2,100,50,50.0,40.38298285901472,59.61701714098528,wilson,1.0,99,50,4204.63
+IFEval,p50c · thinking ficha Qwen (temp 1.0),r2_ifeval_ed_ficha,3,100,45,45.0,35.614375106403465,54.75557296835656,wilson,1.0,99,45,3823.47
+IFEval,p50c · thinking ficha Qwen (temp 1.0),r2_ifeval_ed_ficha,0 1 2 3,400,186,46.5,39.0,54.25,bootstrap_problema,1.0,396,186,3826.07
+IFEval,orig · thinking MIT (temp 0.6),r2_ifeval_orig_think,0,100,21,21.0,14.165549531645787,29.98014930196232,wilson,69.0,31,21,23733.31
+IFEval,p50c · thinking MIT (temp 0.6),r2_ifeval_ed_think,0,100,58,58.0,48.20630799889527,67.2017750814887,wilson,0.0,100,58,3309.55
+IFEval,p50c · thinking MIT (temp 0.6),r2_ifeval_ed_think,1,100,59,59.0,49.20125056109662,68.13284290433533,wilson,1.0,99,59,3754.82
+IFEval,p50c · thinking MIT (temp 0.6),r2_ifeval_ed_think,2,100,63,63.0,53.22034757513312,71.81778743049082,wilson,2.0,98,63,4001.4
+IFEval,p50c · thinking MIT (temp 0.6),r2_ifeval_ed_think,3,100,52,52.0,42.31640509017654,61.53561567991945,wilson,1.0,99,52,3572.0
+IFEval,p50c · thinking MIT (temp 0.6),r2_ifeval_ed_think,0 1 2 3,400,232,57.99999999999999,50.493750000000006,65.5,bootstrap_problema,1.0,396,232,3659.4425
+IFEval,orig · no-think muestreo MIT,r2_ifeval_orig_nothink,0,100,51,51.0,41.34784047743415,60.578169907613855,wilson,1.0,99,51,293.67
+IFEval,orig · no-think muestreo MIT,r2_ifeval_orig_nothink,1,100,52,52.0,42.31640509017654,61.53561567991945,wilson,1.0,99,52,323.48
+IFEval,orig · no-think muestreo MIT,r2_ifeval_orig_nothink,2,100,51,51.0,41.34784047743415,60.578169907613855,wilson,0.0,100,51,225.69
+IFEval,orig · no-think muestreo MIT,r2_ifeval_orig_nothink,3,100,51,51.0,41.34784047743415,60.578169907613855,wilson,0.0,100,51,274.72
+IFEval,orig · no-think muestreo MIT,r2_ifeval_orig_nothink,0 1 2 3,400,205,51.24999999999999,43.25,59.25,bootstrap_problema,0.5,398,205,279.39

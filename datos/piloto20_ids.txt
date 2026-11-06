@@ -1,0 +1,21 @@
+# Piloto: 20 de los 100 fijos, semilla 20261103, cuotas por nivel {1: 2, 2: 4, 3: 4, 4: 5, 5: 5}
+test/algebra/1519.json
+test/algebra/2046.json
+test/algebra/2199.json
+test/algebra/776.json
+test/algebra/892.json
+test/geometry/254.json
+test/geometry/456.json
+test/intermediate_algebra/1126.json
+test/intermediate_algebra/2196.json
+test/intermediate_algebra/515.json
+test/intermediate_algebra/964.json
+test/number_theory/22.json
+test/number_theory/928.json
+test/prealgebra/1458.json
+test/prealgebra/1991.json
+test/prealgebra/2057.json
+test/prealgebra/378.json
+test/precalculus/1289.json
+test/precalculus/675.json
+test/precalculus/807.json

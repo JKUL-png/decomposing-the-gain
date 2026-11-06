@@ -1,0 +1,1 @@
+{"config": "ficha_qwen", "semilla": 1, "problemas": 100, "segundos": 3132.4, "tokens_totales": 3002245, "tok_por_s": 958.4, "correctos": 13, "limite": 87, "errores_calificacion": 0}

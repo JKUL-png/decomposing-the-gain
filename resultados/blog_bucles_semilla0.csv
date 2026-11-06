@@ -1,0 +1,101 @@
+id,nivel,materia,categoria,orig_limite,orig_periodo_chars,orig_inicio_char,orig_copias,orig_chars,orig_tokens,orig_correcto,ed_limite,ed_periodo_chars,ed_tokens,ed_correcto,nt_limite,nt_tokens,nt_correcto
+test/algebra/1082.json,4,Algebra,other,1,285,45840,117,79316,32768,0,1,,32768,0,0,1247,0
+test/algebra/1303.json,1,Algebra,both_fixed,1,465,21653,188,109533,32768,0,0,,4272,1,0,245,1
+test/algebra/1332.json,3,Algebra,both_fixed,1,133,20136,293,59138,32768,0,0,,10515,1,0,784,1
+test/algebra/1338.json,4,Algebra,both_fixed,1,36,16636,1080,55546,32768,0,0,,26151,1,0,1013,1
+test/algebra/1519.json,3,Algebra,other,0,,,,18622,6623,1,0,,7717,1,0,403,1
+test/algebra/170.json,3,Algebra,nothink_wrong,1,31,20787,1149,56406,32768,0,0,,20272,1,0,832,0
+test/algebra/1837.json,5,Algebra,other,1,51,19471,1321,86874,32768,0,0,,21507,0,0,1416,0
+test/algebra/1936.json,3,Algebra,both_fixed,1,35,12895,1457,63890,32768,0,0,,1922,1,0,329,1
+test/algebra/2046.json,3,Algebra,nothink_wrong,1,29,13132,1588,59188,32768,0,0,,11348,1,0,538,0
+test/algebra/2080.json,3,Algebra,other,0,,,,10687,4331,1,0,,7038,1,0,1423,1
+test/algebra/2159.json,3,Algebra,both_fixed,1,169,18420,249,60645,32768,0,0,,19437,1,0,793,1
+test/algebra/2199.json,1,Algebra,edit_still_loops,1,70,27073,591,68489,32768,0,1,,32768,0,0,435,1
+test/algebra/224.json,4,Algebra,both_fixed,1,31,28839,1433,73262,32768,0,0,,8669,1,0,796,1
+test/algebra/2430.json,4,Algebra,edit_still_loops,1,106,11868,380,52151,32768,0,1,,32768,0,0,1521,1
+test/algebra/2486.json,5,Algebra,both_fixed,1,260,37383,232,97732,32768,0,0,,15152,1,0,524,1
+test/algebra/2551.json,1,Algebra,both_fixed,1,737,18739,104,95602,32768,0,0,,9217,1,0,3178,1
+test/algebra/2592.json,1,Algebra,both_fixed,1,28,4460,1687,51716,32768,0,0,,23264,1,0,12262,1
+test/algebra/2680.json,2,Algebra,both_fixed,1,135,21628,305,62865,32768,0,0,,4949,1,0,349,1
+test/algebra/2735.json,2,Algebra,both_fixed,1,34,19796,994,53604,32768,0,0,,11347,1,0,508,1
+test/algebra/2789.json,1,Algebra,both_fixed,1,149,19772,353,72392,32768,0,0,,8672,1,0,349,1
+test/algebra/305.json,5,Algebra,both_fixed,1,37,23336,1523,79716,32768,0,0,,16854,1,0,395,1
+test/algebra/567.json,1,Algebra,both_fixed,1,185,31485,309,88761,32768,0,0,,6437,1,0,753,1
+test/algebra/621.json,4,Algebra,nothink_wrong,1,112,23591,659,97408,32768,0,0,,10898,1,0,483,0
+test/algebra/769.json,3,Algebra,both_fixed,1,143,11677,663,106513,32768,0,0,,9333,1,0,633,1
+test/algebra/776.json,5,Algebra,both_fixed,1,170,31566,320,85977,32768,0,0,,23721,1,0,980,1
+test/algebra/853.json,5,Algebra,edit_still_loops,1,20,11953,1888,49720,32768,0,1,,32768,0,0,10613,1
+test/algebra/873.json,4,Algebra,other,0,,,,47446,22752,1,0,,20869,1,0,726,0
+test/algebra/892.json,5,Algebra,other,1,84,14869,578,63455,32768,0,1,20,32768,0,0,7930,0
+test/algebra/972.json,4,Algebra,both_fixed,1,70,53461,1002,123663,32768,0,0,,21639,1,0,1120,1
+test/counting_and_probability/116.json,2,Counting & Probability,other,1,78,8755,804,71478,32768,0,0,,31530,0,0,683,1
+test/counting_and_probability/159.json,5,Counting & Probability,other,1,742,15393,195,160380,32768,0,1,1,32768,0,0,5656,0
+test/counting_and_probability/199.json,2,Counting & Probability,other,1,162,16161,527,101535,32768,0,1,1927,32768,0,0,14800,0
+test/counting_and_probability/508.json,3,Counting & Probability,other,1,,,,268561,32768,0,1,141,32768,0,0,7477,0
+test/counting_and_probability/666.json,2,Counting & Probability,nothink_wrong,1,62,25691,1058,91347,32768,0,0,,12347,1,0,11403,0
+test/counting_and_probability/894.json,5,Counting & Probability,other,1,448,13573,228,115939,32768,0,1,1,32768,0,0,752,0
+test/counting_and_probability/913.json,3,Counting & Probability,other,1,845,27447,113,123079,32768,0,1,1,32768,0,1,32768,0
+test/geometry/229.json,5,Geometry,other,1,134,9807,533,81317,32768,0,0,,31209,1,1,32768,0
+test/geometry/254.json,2,Geometry,both_fixed,1,23,29219,1705,68456,32768,0,0,,3533,1,0,359,1
+test/geometry/456.json,2,Geometry,both_fixed,1,294,19637,273,100134,32768,0,0,,10935,1,0,548,1
+test/geometry/477.json,3,Geometry,edit_still_loops,1,224,7490,460,110598,32768,0,1,,32768,0,0,4290,1
+test/geometry/615.json,4,Geometry,other,1,620,90124,51,122095,32768,0,1,,32768,0,0,4267,0
+test/geometry/843.json,3,Geometry,both_fixed,1,32,18559,1193,56748,32768,0,0,,17976,1,0,648,1
+test/geometry/965.json,5,Geometry,other,1,127,25851,513,91078,32768,0,0,,22727,0,0,24995,0
+test/intermediate_algebra/101.json,3,Intermediate Algebra,both_fixed,1,65,23470,645,65457,32768,0,0,,27775,1,0,9652,1
+test/intermediate_algebra/1126.json,4,Intermediate Algebra,nothink_wrong,1,115,14735,521,74705,32768,0,0,,19560,1,0,9599,0
+test/intermediate_algebra/117.json,5,Intermediate Algebra,other,1,32,14961,2048,80506,32768,0,1,,32768,0,0,8171,0
+test/intermediate_algebra/1365.json,3,Intermediate Algebra,both_fixed,1,28,12494,1444,52945,32768,0,0,,31889,1,0,29872,1
+test/intermediate_algebra/1462.json,5,Intermediate Algebra,other,1,74,23427,1047,100933,32768,0,1,,32768,0,1,32768,0
+test/intermediate_algebra/1572.json,2,Intermediate Algebra,both_fixed,1,77,11153,897,80230,32768,0,0,,21432,1,0,1968,1
+test/intermediate_algebra/1779.json,4,Intermediate Algebra,other,1,20,15480,1822,51927,32768,0,1,,32768,0,0,15543,0
+test/intermediate_algebra/1806.json,5,Intermediate Algebra,other,1,139,14040,288,54177,32768,0,1,,32768,0,1,32768,0
+test/intermediate_algebra/1837.json,3,Intermediate Algebra,edit_still_loops,1,55,15823,1050,73585,32768,0,1,,32768,0,0,7555,1
+test/intermediate_algebra/190.json,4,Intermediate Algebra,other,1,32,4611,1807,62466,32768,0,0,,23611,0,1,32768,0
+test/intermediate_algebra/1930.json,5,Intermediate Algebra,other,1,196,14433,455,103701,32768,0,1,,32768,0,0,12518,0
+test/intermediate_algebra/1981.json,4,Intermediate Algebra,other,1,100,13510,622,75753,32768,0,0,,20428,0,0,637,0
+test/intermediate_algebra/2046.json,2,Intermediate Algebra,other,1,201,22933,202,63575,32768,0,0,,32084,0,0,1662,1
+test/intermediate_algebra/2196.json,5,Intermediate Algebra,other,1,56,17651,827,64004,32768,0,1,,32768,0,1,32768,1
+test/intermediate_algebra/515.json,2,Intermediate Algebra,both_fixed,1,379,37286,182,106367,32768,0,0,,9182,1,0,554,1
+test/intermediate_algebra/582.json,5,Intermediate Algebra,other,1,136,17726,350,65461,32768,0,1,,32768,0,0,19575,0
+test/intermediate_algebra/964.json,5,Intermediate Algebra,other,1,48,17985,641,48760,32768,0,1,,32768,0,0,3783,0
+test/intermediate_algebra/966.json,5,Intermediate Algebra,other,1,33,49490,167,55011,32768,0,1,,32768,0,0,18936,0
+test/intermediate_algebra/986.json,4,Intermediate Algebra,other,1,28,22347,1329,59569,32768,0,1,,32768,0,0,6143,0
+test/number_theory/1000.json,5,Number Theory,edit_still_loops,1,132,21576,421,77219,32768,0,1,,32768,0,0,2020,1
+test/number_theory/1090.json,5,Number Theory,other,1,225,9889,495,121413,32768,0,1,63,32768,0,0,8296,0
+test/number_theory/156.json,4,Number Theory,other,1,122,8932,342,50768,32768,0,0,,22777,0,0,2703,1
+test/number_theory/203.json,3,Number Theory,other,1,102,8521,655,75405,32768,0,1,1,32768,0,1,32768,0
+test/number_theory/22.json,3,Number Theory,both_fixed,1,354,14717,158,70792,32768,0,0,,22917,1,0,21005,1
+test/number_theory/488.json,4,Number Theory,other,1,51,12867,2069,118422,32768,0,1,,32768,0,0,22706,0
+test/number_theory/515.json,3,Number Theory,both_fixed,1,50,35655,1343,102828,32768,0,0,,23522,1,0,816,1
+test/number_theory/72.json,4,Number Theory,nothink_wrong,1,,,,79508,32768,0,0,,13341,1,0,9993,0
+test/number_theory/769.json,5,Number Theory,other,1,31,9882,1541,57668,32768,0,1,,32768,0,1,32768,0
+test/number_theory/928.json,4,Number Theory,other,1,91,15818,509,62161,32768,0,0,,31393,0,0,10512,1
+test/number_theory/931.json,2,Number Theory,other,1,1090,34169,40,78350,32768,0,0,,16801,0,1,32768,0
+test/prealgebra/105.json,1,Prealgebra,nothink_wrong,1,516,19424,343,196820,32768,0,0,,22059,1,0,289,0
+test/prealgebra/1113.json,2,Prealgebra,nothink_wrong,1,75,16235,942,86957,32768,0,0,,6783,1,0,2737,0
+test/prealgebra/1227.json,3,Prealgebra,nothink_wrong,1,136,22132,732,121689,32768,0,0,,15691,1,0,317,0
+test/prealgebra/1302.json,4,Prealgebra,other,0,,,,12425,4583,1,0,,2770,1,0,444,1
+test/prealgebra/1458.json,3,Prealgebra,both_fixed,1,333,14856,271,105269,32768,0,0,,3950,1,0,1302,1
+test/prealgebra/1512.json,5,Prealgebra,other,1,234,17011,412,113579,32768,0,1,,32768,0,0,647,0
+test/prealgebra/1555.json,2,Prealgebra,both_fixed,1,40,9860,1362,64353,32768,0,0,,11831,1,0,505,1
+test/prealgebra/1622.json,2,Prealgebra,other,1,348,34477,392,171240,32768,0,1,,32768,0,1,32768,0
+test/prealgebra/1834.json,4,Prealgebra,both_fixed,1,70,10959,1164,92486,32768,0,0,,4214,1,0,382,1
+test/prealgebra/1840.json,2,Prealgebra,other,1,444,23408,470,232488,32768,0,0,,16607,0,0,2111,0
+test/prealgebra/1865.json,4,Prealgebra,nothink_wrong,1,67,20857,1583,126983,32768,0,0,,20102,1,0,1455,0
+test/prealgebra/1930.json,5,Prealgebra,other,1,130,16984,368,64899,32768,0,0,,27931,0,1,32768,0
+test/prealgebra/1973.json,4,Prealgebra,other,0,,,,4430,1521,1,0,,10685,1,0,389,1
+test/prealgebra/1991.json,4,Prealgebra,nothink_wrong,1,522,30125,124,95189,32768,0,0,,13358,1,0,554,0
+test/prealgebra/2057.json,4,Prealgebra,other,1,54,13542,1705,105624,32768,0,0,,14298,0,0,903,1
+test/prealgebra/2066.json,5,Prealgebra,other,1,130,11916,659,97616,32768,0,0,,14459,0,0,1712,0
+test/prealgebra/378.json,4,Prealgebra,nothink_wrong,1,102,44596,565,102264,32768,0,0,,21631,1,0,3222,0
+test/precalculus/1199.json,4,Precalculus,other,1,196,25804,408,105866,32768,0,0,,20408,1,1,32768,0
+test/precalculus/1289.json,1,Precalculus,other,0,,,,22882,7966,1,0,,1157,1,0,432,1
+test/precalculus/441.json,2,Precalculus,both_fixed,1,1236,44084,55,112146,32768,0,0,,10231,1,0,695,1
+test/precalculus/675.json,5,Precalculus,other,1,64,11617,739,58939,32768,0,1,,32768,0,0,2853,0
+test/precalculus/681.json,3,Precalculus,edit_still_loops,1,128,7460,550,77951,32768,0,1,,32768,0,0,7679,1
+test/precalculus/742.json,2,Precalculus,other,1,140,5952,442,67886,32768,0,1,,32768,0,1,32768,0
+test/precalculus/768.json,5,Precalculus,other,1,36,25570,1087,64727,32768,0,1,,32768,0,0,444,0
+test/precalculus/807.json,2,Precalculus,other,0,,,,25886,8731,1,0,,3887,1,0,602,1
+test/precalculus/881.json,4,Precalculus,other,1,204,23982,248,74657,32768,0,1,,32768,0,1,32768,0
+test/precalculus/902.json,5,Precalculus,other,1,299,10796,214,75068,32768,0,1,1,32768,0,0,9541,0

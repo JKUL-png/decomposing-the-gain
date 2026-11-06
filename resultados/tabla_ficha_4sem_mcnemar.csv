@@ -1,0 +1,4 @@
+tabla,A,B,parejas,b,c,dif_A_menos_B_pts,dif_boot_lo,dif_boot_hi,p_mcnemar_exacto,p_holm
+MATH-500 (100 fijos) · ficha Qwen · semillas 0-3,orig · thinking ficha Qwen (temp 1.0),p50c · thinking ficha Qwen (temp 1.0),400,9,53,-11.0,-15.25,-7.000000000000001,1.0507232717140574e-08,2.101446543428115e-08
+MATH-500 (100 fijos) · ficha Qwen · semillas 0-3,orig · thinking ficha Qwen (temp 1.0),orig · thinking MIT (temp 0.6),400,53,13,10.0,5.25,15.0,7.237175237417024e-07,7.237175237417024e-07
+MATH-500 (100 fijos) · ficha Qwen · semillas 0-3,p50c · thinking ficha Qwen (temp 1.0),p50c · thinking MIT (temp 0.6),400,6,96,-22.5,-28.499999999999996,-16.75,5.657185283317709e-22,1.6971555849953127e-21

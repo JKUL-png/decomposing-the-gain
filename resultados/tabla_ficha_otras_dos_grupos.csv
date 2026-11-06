@@ -1,0 +1,9 @@
+tarea,A,B,parejas,dif_total_pts,B_al_limite_parejas,B_al_limite_contribucion_pts,B_termino_parejas,B_termino_contribucion_pts
+GSM8K subconjunto 1,orig · thinking ficha Qwen (temp 1.0),p50c · thinking ficha Qwen (temp 1.0),100,-20.0,32,3.0,68,-23.0
+GSM8K subconjunto 1,orig · thinking ficha Qwen (temp 1.0),orig · thinking MIT (temp 0.6),100,19.0,84,21.0,16,-2.0
+GSM8K subconjunto 1,p50c · thinking ficha Qwen (temp 1.0),p50c · thinking MIT (temp 0.6),100,-16.0,7,0.0,93,-16.0
+GSM8K subconjunto 1,p50c · thinking ficha Qwen (temp 1.0),orig · no-think muestreo MIT,100,1.0,6,1.0,94,0.0
+IFEval,orig · thinking ficha Qwen (temp 1.0),p50c · thinking ficha Qwen (temp 1.0),100,11.0,0,0.0,100,11.0
+IFEval,orig · thinking ficha Qwen (temp 1.0),orig · thinking MIT (temp 0.6),100,37.0,69,40.0,31,-3.0
+IFEval,p50c · thinking ficha Qwen (temp 1.0),p50c · thinking MIT (temp 0.6),100,-11.0,0,0.0,100,-11.0
+IFEval,p50c · thinking ficha Qwen (temp 1.0),orig · no-think muestreo MIT,100,-4.0,1,0.0,99,-4.0

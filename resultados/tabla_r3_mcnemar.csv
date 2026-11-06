@@ -1,0 +1,31 @@
+tabla,A,B,parejas,b,c,dif_A_menos_B_pts,dif_boot_lo,dif_boot_hi,p_mcnemar_exacto,p_holm
+GSM8K subconjunto 1,p50c · thinking MIT,p50c · no-think muestreo MIT,400,89,31,14.499999999999998,8.0,20.756249999999905,1.1187721865433781e-07,2.2375443730867562e-07
+GSM8K subconjunto 1,p50c · thinking MIT,orig · no-think muestreo MIT,400,82,25,14.249999999999998,9.0,19.5,2.908096741300926e-08,1.1632386965203703e-07
+GSM8K subconjunto 1,p50c · thinking MIT,orig · thinking MIT (solo semilla 0),100,55,0,55.00000000000001,45.0,65.0,5.551115123125783e-17,3.3306690738754696e-16
+GSM8K subconjunto 1,p50c · no-think muestreo MIT,orig · no-think muestreo MIT,400,51,52,-0.25,-5.75,5.25,1.0,1.0
+GSM8K subconjunto 1,p50c · no-think muestreo MIT,orig · thinking MIT (solo semilla 0),100,36,3,33.0,23.0,43.0,3.608874976634979e-08,1.1632386965203703e-07
+GSM8K subconjunto 1,orig · no-think muestreo MIT,orig · thinking MIT (solo semilla 0),100,39,1,38.0,28.000000000000004,48.0,7.457856554538012e-11,3.728928277269006e-10
+GSM8K subconjunto b,p50c · thinking MIT,p50c · no-think muestreo MIT,400,76,36,10.0,3.75,16.25,0.0001982369985545843,0.0005947109956637529
+GSM8K subconjunto b,p50c · thinking MIT,orig · no-think muestreo MIT,400,72,36,9.0,3.0,15.5,0.0006842302219330048,0.0013684604438660096
+GSM8K subconjunto b,p50c · no-think muestreo MIT,orig · no-think muestreo MIT,400,46,50,-1.0,-6.75,4.75,0.7596492883236297,0.7596492883236297
+GSM8K 1 + b juntos,p50c · thinking MIT,p50c · no-think muestreo MIT,800,165,67,12.25,7.875,16.75,1.0121563804118264e-10,3.036469141235479e-10
+GSM8K 1 + b juntos,p50c · thinking MIT,orig · no-think muestreo MIT,800,154,61,11.625,7.625,15.75,1.835971467940476e-10,3.671942935880952e-10
+GSM8K 1 + b juntos,p50c · no-think muestreo MIT,orig · no-think muestreo MIT,800,97,102,-0.625,-4.625,3.125,0.776837706894034,0.776837706894034
+IFEval,p50c · thinking MIT,p50c · no-think muestreo MIT,400,95,47,12.0,4.75,19.25624999999991,6.913146544615167e-05,0.0002765258617846067
+IFEval,p50c · thinking MIT,orig · no-think muestreo MIT,400,80,53,6.75,0.0,13.5,0.023801099334891,0.047602198669782
+IFEval,p50c · thinking MIT,orig · thinking MIT (solo semilla 0),100,40,3,37.0,26.0,47.0,3.0213413992896676e-09,1.8128048395738006e-08
+IFEval,p50c · no-think muestreo MIT,orig · no-think muestreo MIT,400,31,52,-5.25,-10.0,-0.75,0.027534178012294526,0.047602198669782
+IFEval,p50c · no-think muestreo MIT,orig · thinking MIT (solo semilla 0),100,29,7,22.0,11.0,33.0,0.00031255115754902363,0.0009376534726470709
+IFEval,orig · no-think muestreo MIT,orig · thinking MIT (solo semilla 0),100,33,3,30.0,20.0,40.0,2.2721360437572002e-07,1.1360680218786001e-06
+McNemar MATH-500 (100 fijos) (semilla 0),A · reintento,B · forzar,100,0,21,-21.0,-28.999999999999996,-13.0,9.5367431640625e-07,2.86102294921875e-06
+McNemar MATH-500 (100 fijos) (semilla 0),A · reintento,orig · thinking (ref.),100,8,2,6.0,0.0,12.0,0.109375,0.109375
+McNemar MATH-500 (100 fijos) (semilla 0),A · reintento,p50c · thinking,100,2,40,-38.0,-48.0,-28.000000000000004,4.1109160520136356e-10,2.055458026006818e-09
+McNemar MATH-500 (100 fijos) (semilla 0),B · forzar,orig · thinking (ref.),100,27,0,27.0,18.0,36.0,1.4901161193847656e-08,5.960464477539063e-08
+McNemar MATH-500 (100 fijos) (semilla 0),B · forzar,p50c · thinking,100,4,21,-17.0,-26.0,-8.0,0.0009105205535888672,0.0018210411071777344
+McNemar MATH-500 (100 fijos) (semilla 0),orig · thinking (ref.),p50c · thinking,100,0,44,-44.0,-54.0,-34.0,1.1368683772161603e-13,6.821210263296962e-13
+McNemar GSM8K (subconjunto 1) (semilla 0),A · reintento,B · forzar,100,2,34,-32.0,-42.0,-22.0,1.941225491464138e-08,5.823676474392414e-08
+McNemar GSM8K (subconjunto 1) (semilla 0),A · reintento,orig · thinking (ref.),100,14,5,9.0,1.0,17.0,0.063568115234375,0.063568115234375
+McNemar GSM8K (subconjunto 1) (semilla 0),A · reintento,p50c · thinking,100,0,46,-46.0,-56.00000000000001,-36.0,2.842170943040401e-14,1.4210854715202004e-13
+McNemar GSM8K (subconjunto 1) (semilla 0),B · forzar,orig · thinking (ref.),100,43,2,41.0,31.0,51.0,5.88897819397971e-11,2.355591277591884e-10
+McNemar GSM8K (subconjunto 1) (semilla 0),B · forzar,p50c · thinking,100,7,21,-14.000000000000002,-24.0,-4.0,0.012540951371192932,0.025081902742385864
+McNemar GSM8K (subconjunto 1) (semilla 0),orig · thinking (ref.),p50c · thinking,100,0,55,-55.00000000000001,-65.0,-45.0,5.551115123125783e-17,3.3306690738754696e-16

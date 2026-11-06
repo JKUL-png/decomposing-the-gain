@@ -1,0 +1,11 @@
+tarea,brazo,prefijo,semilla,n,correctos,precision_pct,precision_wilson_lo,precision_wilson_hi,al_limite_pct,terminaron,correctos_terminaron,tokens_medios
+GSM8K subconjunto 1,orig · thinking ficha Qwen (temp 1.0),r2_gsm8k_orig_ficha,0,100,35,35.0,26.36410465347802,44.74573957080203,63.0,37,35,26188.04
+GSM8K subconjunto 1,p50c · thinking ficha Qwen (temp 1.0),r2_gsm8k_ed_ficha,0,100,55,55.0,45.24442703164345,64.38562489359654,32.0,68,55,19803.31
+GSM8K subconjunto 1,orig · thinking MIT (temp 0.6),r2_gsm8k_orig_think,0,100,16,16.0,10.095202349473716,24.420444558894413,84.0,16,16,28145.05
+GSM8K subconjunto 1,p50c · thinking MIT (temp 0.6),r2_gsm8k_ed_think,0,100,71,71.0,61.460925059992064,78.98529302601585,7.0,93,71,11672.21
+GSM8K subconjunto 1,orig · no-think muestreo MIT,r2_gsm8k_orig_nothink,0,100,54,54.0,44.264685393523855,63.439356146668146,6.0,94,54,1205.35
+IFEval,orig · thinking ficha Qwen (temp 1.0),r2_ifeval_orig_ficha,0,100,58,58.0,48.20630799889527,67.2017750814887,19.0,81,57,9766.32
+IFEval,p50c · thinking ficha Qwen (temp 1.0),r2_ifeval_ed_ficha,0,100,47,47.0,37.51065198210374,56.71131686275227,0.0,100,47,3409.1
+IFEval,orig · thinking MIT (temp 0.6),r2_ifeval_orig_think,0,100,21,21.0,14.165549531645787,29.98014930196232,69.0,31,21,23733.31
+IFEval,p50c · thinking MIT (temp 0.6),r2_ifeval_ed_think,0,100,58,58.0,48.20630799889527,67.2017750814887,0.0,100,58,3309.55
+IFEval,orig · no-think muestreo MIT,r2_ifeval_orig_nothink,0,100,51,51.0,41.34784047743415,60.578169907613855,1.0,99,51,293.67
